@@ -1,12 +1,16 @@
 import React from 'react';
 import config from '../../config';
-export default function SiteHeader() {
-  return (
-    <h1 className="site-heading text-center text-white d-none d-lg-block">
-      <span className="site-heading-upper text-primary mb-3">
+import logo from '../assets/img/pizza-shark-logo-trans.png';
+
+const SiteHeader = () => (
+  <div className="container">
+    <h1 className="site-heading text-center text-white d-block">
+      <img className="logo-img img-fluid mt-4 mb-0" src={logo} alt="logo" />
+      {/* <span className="site-heading-upper text-primary mtb-0">
         {config.subHeading}
-      </span>
-      <span className="site-heading-lower">{config.heading}</span>
+      </span> */}
     </h1>
-  );
-}
+  </div>
+);
+
+export default SiteHeader;

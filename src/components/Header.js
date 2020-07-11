@@ -16,13 +16,16 @@ export default class Header extends Component {
     const { openMenu } = this.state;
     const { activeLink } = this.props;
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <nav
+        className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-4"
+        id="mainNav"
+      >
         <div className="container">
           <a
             className="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
             href="/#"
           >
-            {config.siteTitle}
+            Order Online
           </a>
 
           <button
