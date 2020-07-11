@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import intro from '../assets/images/intro.jpg';
+import empty from '../assets/img/plgs-empty.jpeg';
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix">
@@ -10,7 +10,7 @@ const IndexPage = () => (
         <div className="intro">
           <img
             className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-            src={intro}
+            src={empty}
             alt=""
           />
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
