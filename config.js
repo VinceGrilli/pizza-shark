@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Casual', // <title>
-  manifestName: 'Casual',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Pizza Shark', // <title>
+  manifestName: 'Pizza Shark',
+  manifestShortName: 'pizza-shark', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-casual/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Gatsby Starter Casual',
-  subHeading: 'A Free Bootstrap 4 based Gatsby Starter',
+  manifestIcon: 'src/assets/img/pizza-shark-logo-trans.png',
+  pathPrefix: `/pizza-shark/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Pizza Shark',
+  subHeading: 'At the Pleasent Lake General Store',
 };
