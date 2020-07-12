@@ -8,11 +8,6 @@ const IndexPage = () => (
     <section className="page-section clearfix">
       <div className="container">
         <div className="intro">
-          <img
-            className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-            src={empty}
-            alt=""
-          />
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
               <span className="section-heading-lower">pizza and ice cream</span>
@@ -25,8 +20,8 @@ const IndexPage = () => (
               Rail Trail. Now scooping Ice Cream at our take out window. Pizza,
               Subs, Sides, Beer & Wine, and General Store Essentials coming
               soon! Please use our hassle-free online ordering system for the
-              the quickest and easiest service. We Deliver to all of Brewster
-              and Harwich!
+              quickest and easiest service. We Deliver to all of Brewster and
+              Harwich!
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">
@@ -34,6 +29,11 @@ const IndexPage = () => (
               </a>
             </div>
           </div>
+          <img
+            className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+            src={empty}
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -44,19 +44,20 @@ const IndexPage = () => (
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Our Promise</span>
-                <span className="section-heading-lower">To You</span>
+                <span className="section-heading-upper">The Best Stop</span>
+                <span className="section-heading-lower">
+                  on the cape cod rail trail
+                </span>
               </h2>
               <p className="mb-0">
-                Food truck yr poke hexagon, prism listicle fixie plaid twee
-                biodiesel salvia everyday carry godard cred blog. Hot chicken
-                pok pok seitan occupy, portland actually tofu mumblecore.
-                Brooklyn franzen adaptogen, pitchfork glossier microdosing prism
-                normcore butcher tumblr trust fund seitan put a bird on it. Hot
-                chicken organic 8-bit, celiac narwhal tbh chicharrones
-                shoreditch. Single-origin coffee craft beer drinking vinegar
-                pork belly four dollar toast small batch retro hashtag schlitz
-                bushwick air plant, post-ironic man braid food truck butcher.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                rem deserunt minima molestiae deleniti dolorum, ipsum eligendi
+                provident aperiam, officiis soluta aut similique placeat? Ipsam
+                voluptas quidem nostrum quis repellendus, voluptate doloribus
+                reiciendis. A reprehenderit delectus impedit cum, quas ratione
+                nemo pariatur, dolorum explicabo quia atque esse rem
+                praesentium, natus placeat voluptatum at eaque soluta fuga ea
+                culpa temporibus optio.
               </p>
             </div>
           </div>
