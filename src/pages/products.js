@@ -32,7 +32,7 @@ const IndexPage = () => (
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
                 totam quis distinctio ipsa labore ducimus dignissimos expedita
                 dolore magnam consectetur quo, fugiat asperiores consequuntur
-                veniam illum. Aliquam nihil voluptatum sapiente!
+                veniam illum. Aliquam el nihil voluptatum sapiente!
               </p>
             </div>
           </div>
