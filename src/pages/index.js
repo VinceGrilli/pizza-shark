@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import empty from '../assets/img/plgs-empty.jpeg';
+import empty from '../assets/images/plgs-empty.jpeg';
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix">
@@ -25,7 +25,8 @@ const IndexPage = () => (
               Rail Trail. Now scooping Ice Cream at our take out window. Pizza,
               Subs, Sides, Beer & Wine, and General Store Essentials coming
               soon! Please use our hassle-free online ordering system for the
-              the quickest and easiest service. We Deliver!
+              the quickest and easiest service. We Deliver to all of Brewster
+              and Harwich!
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">
@@ -47,12 +48,15 @@ const IndexPage = () => (
                 <span className="section-heading-lower">To You</span>
               </h2>
               <p className="mb-0">
-                When you walk into our shop to start your day, we are dedicated
-                to providing you with friendly service, a welcoming atmosphere,
-                and above all else, excellent products made with yada yada yada
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                iusto impedit ullam cupiditate a aperiam, cum laboriosam at,
-                culpa fugit cumque itaque rem aliquid nulla?
+                Food truck yr poke hexagon, prism listicle fixie plaid twee
+                biodiesel salvia everyday carry godard cred blog. Hot chicken
+                pok pok seitan occupy, portland actually tofu mumblecore.
+                Brooklyn franzen adaptogen, pitchfork glossier microdosing prism
+                normcore butcher tumblr trust fund seitan put a bird on it. Hot
+                chicken organic 8-bit, celiac narwhal tbh chicharrones
+                shoreditch. Single-origin coffee craft beer drinking vinegar
+                pork belly four dollar toast small batch retro hashtag schlitz
+                bushwick air plant, post-ironic man braid food truck butcher.
               </p>
             </div>
           </div>

@@ -2,9 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pizza from '../assets/img/rando-pizza.jpg';
-import sandwich from '../assets/img/rando-sandwich.jpg';
-import icecream from '../assets/img/rando-ice-cream.jpg';
+import pizza from '../assets/images/rando-pizza.jpg';
+import sandwich from '../assets/images/rando-sandwich.jpg';
+import icecream from '../assets/images/rando-ice-cream.jpg';
 
 const IndexPage = () => (
   <Layout activeLink="products">

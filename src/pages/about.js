@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import cooler from '../assets/img/plgs-cooler.jpeg';
+import cooler from '../assets/images/plgs-cooler.jpeg';
 const IndexPage = () => (
   <Layout activeLink="about">
     <section className="page-section about-heading">

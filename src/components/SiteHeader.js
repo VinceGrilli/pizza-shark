@@ -1,6 +1,5 @@
 import React from 'react';
-import config from '../../config';
-import logo from '../assets/img/pizza-shark-logo-trans.png';
+import logo from '../assets/images/pizza-shark-logo-trans.png';
 
 const SiteHeader = () => (
   <div className="container">

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import config from '../../config';
 import { Link } from 'gatsby';
 export default class Header extends Component {
   constructor(props) {
