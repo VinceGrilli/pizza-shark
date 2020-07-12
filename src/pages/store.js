@@ -1,8 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
-import about from '../assets/images/about.jpg';
+import cooler from '../assets/img/plgs-cooler.jpeg';
 
 const IndexPage = () => (
   <Layout activeLink="store">
@@ -45,19 +44,24 @@ const IndexPage = () => (
                   <span className="ml-auto">9:00 AM to 5:00 PM</span>
                 </li>
               </ul>
-              <p className="address mb-5">
+              <p className="address mb-4">
                 <em>
-                  <strong>1116 Orchard Street</strong>
+                  <strong>403 Pleasant Lake Ave</strong>
                   <br />
-                  Golden Valley, Minnesota
+                  Harwich, MA 02645
                 </em>
               </p>
+              <div className="intro-button mx-auto">
+                <a className="btn btn-primary btn-xl mb-4" href="/#">
+                  Order Online!
+                </a>
+              </div>
               <p className="mb-0">
                 <small>
                   <em>Call Anytime</em>
                 </small>
                 <br />
-                (317) 585-8468
+                (508) 555-5555
               </p>
             </div>
           </div>
@@ -69,7 +73,7 @@ const IndexPage = () => (
       <div className="container">
         <img
           className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-          src={about}
+          src={cooler}
           alt=""
         />
         <div className="about-heading-content">
@@ -78,23 +82,22 @@ const IndexPage = () => (
               <div className="bg-faded rounded p-5">
                 <h2 className="section-heading mb-4">
                   <span className="section-heading-upper">
-                    Strong Coffee, Strong Roots
+                    pizza with a passion
                   </span>
-                  <span className="section-heading-lower">About Our Cafe</span>
+                  <span className="section-heading-lower">About Our Store</span>
                 </h2>
                 <p>
-                  Founded in 1987 by the Hernandez brothers, our establishment
-                  has been serving up rich coffee sourced from artisan farmers
-                  in various regions of South and Central America. We are
-                  dedicated to travelling the world, finding the best coffee,
-                  and bringing back to you here in our cafe.
+                  Founded in 2020 Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Ipsa, ut. Veniam quasi, consequatur hic
+                  mollitia sint ullam. Incidunt nesciunt facere dolorem
+                  obcaecati sapiente? Quaerat suscipit unde beatae, nobis sunt
+                  possimus.
                 </p>
                 <p className="mb-0">
-                  We guarantee that you will fall in
-                  <em>lust</em>
-                  with our decadent blends the moment you walk inside until you
-                  finish your last sip. Join us for your daily routine, an
-                  outing with friends, or simply just to enjoy some alone time.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi perspiciatis magni sit dolorem voluptatem. Aliquam
+                  minima minus exercitationem voluptatem, in provident quam
+                  dolor sunt maiores culpa optio obcaecati libero sit.
                 </p>
               </div>
             </div>

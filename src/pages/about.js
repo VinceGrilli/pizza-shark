@@ -18,22 +18,21 @@ const IndexPage = () => (
               <div className="bg-faded rounded p-5">
                 <h2 className="section-heading mb-4">
                   <span className="section-heading-upper">
-                    Strong Coffee, Strong Roots
+                    Pizza with a passion
                   </span>
-                  <span className="section-heading-lower">About Our Cafe</span>
+                  <span className="section-heading-lower">About Our Store</span>
                 </h2>
                 <p>
-                  Founded in 1987 by the Hernandez brothers, our establishment
-                  has been serving up rich coffee sourced from artisan farmers
-                  in various regions of South and Central America. We are
-                  dedicated to travelling the world, finding the best coffee,
-                  and bringing back to you here in our cafe.
+                  Founded in 2020 Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Officia necessitatibus nobis tempora,
+                  reprehenderit quam, magni quo esse et ab itaque quas, labore
+                  voluptate eos. Sit sed quas eligendi minus exercitationem?
                 </p>
                 <p className="mb-0">
-                  We guarantee that you will fall in <em>lust</em> with our
-                  decadent blends the moment you walk inside until you finish
-                  your last sip. Join us for your daily routine, an outing with
-                  friends, or simply just to enjoy some alone time.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
+                  expedita ducimus mollitia asperiores assumenda qui quas
+                  repellat eveniet quae soluta nam iure voluptatem, dolores
+                  possimus odio consequatur iste ratione vero.
                 </p>
               </div>
             </div>

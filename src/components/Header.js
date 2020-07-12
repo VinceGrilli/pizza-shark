@@ -44,7 +44,7 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav text-center ml-auto">
               <li
-                className={`nav-item px-lg-4 ${
+                className={`nav-item px-lg-3 ${
                   activeLink === 'home' ? 'active' : ''
                 }`}
               >
@@ -53,7 +53,7 @@ export default class Header extends Component {
                 </Link>
               </li>
               <li
-                className={`nav-item px-lg-4 ${
+                className={`nav-item px-lg-3 ${
                   activeLink === 'about' ? 'active' : ''
                 }`}
               >
@@ -65,7 +65,7 @@ export default class Header extends Component {
                 </Link>
               </li>
               <li
-                className={`nav-item px-lg-4 ${
+                className={`nav-item px-lg-3 ${
                   activeLink === 'products' ? 'active' : ''
                 }`}
               >
@@ -73,11 +73,11 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/products"
                 >
-                  Products
+                  Menu
                 </Link>
               </li>
               <li
-                className={`nav-item px-lg-4 ${
+                className={`nav-item px-lg-2 ${
                   activeLink === 'store' ? 'active' : ''
                 }`}
               >
@@ -85,7 +85,7 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/store"
                 >
-                  Store
+                  Hours & Location
                 </Link>
               </li>
             </ul>

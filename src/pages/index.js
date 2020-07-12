@@ -15,18 +15,21 @@ const IndexPage = () => (
           />
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
-              <span className="section-heading-upper">Fresh Coffee</span>
-              <span className="section-heading-lower">Worth Drinking</span>
+              <span className="section-heading-lower">pizza and ice cream</span>
+              <span className="section-heading-upper">
+                at the pleasent lake general store
+              </span>
             </h2>
             <p className="mb-3">
-              Every cup of our quality artisan coffee starts with locally
-              sourced, hand picked ingredients. Once you try it, our coffee will
-              be a blissful addition to your everyday morning routine - we
-              guarantee it!
+              Located on the Brewster-Harwich line, directly on the Cape Cod
+              Rail Trail. Now scooping Ice Cream at our take out window. Pizza,
+              Subs, Sides, Beer & Wine, and General Store Essentials coming
+              soon! Please use our hassle-free online ordering system for the
+              the quickest and easiest service. We Deliver!
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">
-                Visit Us Today!
+                Order Online!
               </a>
             </div>
           </div>
@@ -46,9 +49,10 @@ const IndexPage = () => (
               <p className="mb-0">
                 When you walk into our shop to start your day, we are dedicated
                 to providing you with friendly service, a welcoming atmosphere,
-                and above all else, excellent products made with the highest
-                quality ingredients. If you are not satisfied, please let us
-                know and we will do whatever we can to make things right!
+                and above all else, excellent products made with yada yada yada
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                iusto impedit ullam cupiditate a aperiam, cum laboriosam at,
+                culpa fugit cumque itaque rem aliquid nulla?
               </p>
             </div>
           </div>
