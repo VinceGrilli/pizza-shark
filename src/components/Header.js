@@ -22,7 +22,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <a
-            className="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
+            className="navbar-brand text-uppercase text-expanded font-weight-bold "
             href="/#"
           >
             Order Online
@@ -42,7 +42,7 @@ export default class Header extends Component {
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
             id="navbarResponsive"
           >
-            <ul className="navbar-nav text-center mx-auto">
+            <ul className="navbar-nav text-center ml-auto">
               <li
                 className={`nav-item px-lg-4 ${
                   activeLink === 'home' ? 'active' : ''
