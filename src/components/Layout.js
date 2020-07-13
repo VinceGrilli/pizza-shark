@@ -33,8 +33,12 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Casual' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Pizza Shark Cape Cod' },
+                {
+                  name: 'keywords',
+                  content:
+                    'pizza shark, pizza, brewster, harwich, ice cream, icecream, cape, cape cod, ',
+                },
               ]}
             >
               <html lang="en" />

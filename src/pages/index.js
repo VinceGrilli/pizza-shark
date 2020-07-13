@@ -10,7 +10,7 @@ const IndexPage = () => (
         <div className="intro">
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
-              <span className="section-heading-lower">pizza and ice cream</span>
+              <span className="section-heading-lower">pizza & ice cream</span>
               <span className="section-heading-upper">
                 at the pleasent lake general store
               </span>
@@ -18,7 +18,7 @@ const IndexPage = () => (
             <p className="mb-3">
               Located on the Brewster-Harwich line, directly on the Cape Cod
               Rail Trail. Now scooping Ice Cream at our take out window. Pizza,
-              Subs, Sides, Beer & Wine, and General Store Essentials coming
+              Subs, Sides, Beer & Wine, and General Store essentials coming
               soon! Please use our hassle-free online ordering system for the
               quickest and easiest service. We Deliver to all of Brewster and
               Harwich!

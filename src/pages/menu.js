@@ -7,7 +7,7 @@ import sandwich from '../assets/images/rando-sandwich.jpg';
 import icecream from '../assets/images/rando-ice-cream.jpg';
 
 const IndexPage = () => (
-  <Layout activeLink="products">
+  <Layout activeLink="menu">
     <section className="page-section">
       <div className="container">
         <div className="product-item">
@@ -78,7 +78,9 @@ const IndexPage = () => (
           <div className="product-item-title d-flex">
             <div className="bg-faded p-5 d-flex ml-auto rounded">
               <h2 className="section-heading mb-0">
-                <span className="section-heading-lower">Ice Cream</span>
+                <span className="section-heading-lower">
+                  Homemade Ice Cream
+                </span>
                 <span className="section-heading-upper">
                   over one thousand flavors!
                 </span>

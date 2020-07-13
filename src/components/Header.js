@@ -53,12 +53,12 @@ export default class Header extends Component {
               </li>
               <li
                 className={`nav-item px-lg-3 ${
-                  activeLink === 'products' ? 'active' : ''
+                  activeLink === 'menu' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/products"
+                  to="/menu"
                 >
                   Menu
                 </Link>
