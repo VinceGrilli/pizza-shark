@@ -17,11 +17,11 @@ const IndexPage = () => (
             </h2>
             <p className="mb-3">
               Located on the Brewster-Harwich line, directly on the Cape Cod
-              Rail Trail. Now scooping Ice Cream at our take out window. Pizza,
-              Subs, Sides, Beer & Wine, and General Store essentials coming
-              soon! Please use our hassle-free online ordering system for the
-              quickest and easiest service. We Deliver to all of Brewster and
-              Harwich!
+              Rail Trail. Now scooping Giford's famous ice cream at our take out
+              window. Pizza, Subs, Sides, Beer & Wine, and General Store
+              essentials coming soon! Please use our hassle-free online ordering
+              system for the quickest and easiest service. We Deliver to all of
+              Brewster and Harwich!
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">

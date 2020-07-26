@@ -79,10 +79,10 @@ const IndexPage = () => (
             <div className="bg-faded p-5 d-flex ml-auto rounded">
               <h2 className="section-heading mb-0">
                 <span className="section-heading-lower">
-                  Homemade Ice Cream
+                  Gifford's famous ice cream
                 </span>
                 <span className="section-heading-upper">
-                  over one thousand flavors!
+                  Over one thousand flavors!
                 </span>
               </h2>
             </div>

@@ -33,11 +33,11 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Pizza Shark Cape Cod' },
+                { name: 'Pizza Shark', content: 'Pizza Shark Cape Cod' },
                 {
                   name: 'keywords',
                   content:
-                    'pizza shark, pizza, brewster, harwich, ice cream, icecream, cape, cape cod, ',
+                    'pizza shark, pizza, shark, brewster, harwich, ice cream, icecream, cape, cape cod, take out, delivery',
                 },
               ]}
             >
