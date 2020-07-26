@@ -16,7 +16,7 @@ export default class Header extends Component {
     const { activeLink } = this.props;
     return (
       <nav
-        className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-4"
+        className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-2"
         id="mainNav"
       >
         <div className="container">
