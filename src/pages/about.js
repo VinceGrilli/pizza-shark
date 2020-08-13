@@ -26,11 +26,11 @@ const IndexPage = () => (
                   </span>
                 </h2>
                 <p>
-                  Pleasant Lake is a village of Harwich directly to its north.
-                  Way back in 1858 this building was not only a country store
-                  but also a post office and railroad station. It remained a
-                  post office until 1972. Cranberries from the nearby bogs were
-                  shipped by rail until the bike trail replaced the tracks.
+                  Pleasant Lake is a village of Harwich. Way back in 1858 this
+                  building was not only a country store but also a post office
+                  and railroad station. It remained a post office until 1972.
+                  Cranberries from the nearby bogs were shipped by rail until
+                  the bike trail replaced the tracks.
                 </p>
                 <p className="mb-0">
                   In 2020 Pizza Shark took over the Pleasent Lake General Store.

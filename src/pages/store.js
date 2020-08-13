@@ -47,7 +47,7 @@ const IndexPage = () => (
                   Late night takout
                   <br />
                   Friday & Saturday
-                  <span className="ml-auto">9:00 AM to 12:00 AM</span>
+                  <span className="ml-auto">9:00 PM to 12:00 AM</span>
                 </li>
               </ul>
               <p className="address mb-4">
