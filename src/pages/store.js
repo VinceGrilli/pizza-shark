@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import cooler from '../assets/images/plgs-cooler.jpeg';
+import Map from '../components/Map';
 
 const IndexPage = () => (
   <Layout activeLink="store">
@@ -75,42 +75,15 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="page-section about-heading">
-      <div className="container">
-        <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-          src={cooler}
-          alt=""
-        />
-        <div className="about-heading-content">
-          <div className="row">
-            <div className="col-xl-9 col-lg-10 mx-auto">
-              <div className="bg-faded rounded p-5">
-                <h2 className="section-heading mb-4">
-                  <span className="section-heading-upper">
-                    pizza with a passion
-                  </span>
-                  <span className="section-heading-lower">About Our Store</span>
-                </h2>
-                <p>
-                  Founded in 2020 Lorem ipsum, dolor sit amet consectetur
-                  adipisicing elit. Ipsa, ut. Veniam quasi, consequatur hic
-                  mollitia sint ullam. Incidunt nesciunt facere dolorem
-                  obcaecati sapiente? Quaerat suscipit unde beatae, nobis sunt
-                  possimus.
-                </p>
-                <p className="mb-0">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi perspiciatis magni sit dolorem voluptatem. Aliquam
-                  minima minus exercitationem voluptatem, in provident quam
-                  dolor sunt maiores culpa optio obcaecati libero sit.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div className="container mb-4">
+      <Map
+        isMarkerShown
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}
+        loadingElement={<div style={{ height: `100%` }} />}
+        containerElement={<div style={{ height: `400px` }} />}
+        mapElement={<div style={{ height: `100%` }} />}
+      />
+    </div>
   </Layout>
 );
 
