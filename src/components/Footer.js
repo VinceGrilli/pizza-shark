@@ -5,7 +5,8 @@ export default function Footer() {
     <footer className="footer text-faded text-center py-4">
       <div className="container">
         <p className="m-0 ">
-          © {new Date().getFullYear()}, Site crafted by
+          © Copyright {new Date().getFullYear()} All rights reserved. Website
+          crafted by
           {` `}
           <a href="https://www.builttocode.dev">
             <img
