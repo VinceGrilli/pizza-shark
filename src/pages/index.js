@@ -38,7 +38,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="page-section cta">
+    <section className="page-section cta container">
       <div className="container">
         <div className="row">
           <div className="col-xl-9 mx-auto">
@@ -61,6 +61,11 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
+        </div>
+        <div className="mx-auto pt-5 row justify-content-center">
+          <a className="btn btn-white absolute btn-xl" href="/#">
+            Order Online Now!
+          </a>
         </div>
       </div>
     </section>
