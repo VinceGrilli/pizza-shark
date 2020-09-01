@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import psic from '../assets/images/pizza-shark-ice-cream2.png';
-import bog from '../assets/images/plgs-bog.jpg';
+import plgs from '../assets/images/plgs5.jpg';
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix">
@@ -33,8 +33,8 @@ const IndexPage = () => (
           </div>
           <img
             className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-            src={bog}
-            alt="Cranberry Bog"
+            src={plgs}
+            alt="Old Store Front"
           />
         </div>
       </div>
