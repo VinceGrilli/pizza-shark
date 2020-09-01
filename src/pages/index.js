@@ -44,7 +44,7 @@ const IndexPage = () => (
         <img className="logo-img img-fluid mt-4 mb-0" src={psic} alt="logo2" />
       </h1>
     </section>
-    <section className="page-section cta container">
+    <section className="page-section cta container rounded">
       <div className="container">
         <div className="row">
           <div className="col-xl-9 mx-auto">

@@ -7,7 +7,7 @@ const IndexPage = () => {
   console.log(process.env);
   return (
     <Layout activeLink="store">
-      <section className="page-section cta container">
+      <section className="page-section cta container rounded">
         <div className="container">
           <div className="row">
             <div className="col-xl-9 mx-auto">
