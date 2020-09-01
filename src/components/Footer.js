@@ -8,7 +8,7 @@ export default function Footer() {
           © Copyright {new Date().getFullYear()} All rights reserved. Website
           crafted by
           {` `}
-          <a href="https://www.builttocode.dev">
+          <a href="https://builttocode.dev">
             <img
               style={{
                 maxWidth: `7rem`,

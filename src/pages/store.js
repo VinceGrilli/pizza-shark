@@ -7,13 +7,13 @@ const IndexPage = () => {
   console.log(process.env);
   return (
     <Layout activeLink="store">
-      <section className="page-section cta">
+      <section className="page-section cta container">
         <div className="container">
           <div className="row">
             <div className="col-xl-9 mx-auto">
-              <div className="cta-inner text-center rounded">
+              <div className="cta-inner text-center rounded px-4">
                 <h2 className="section-heading mb-5">
-                  <span className="section-heading-upper">Come On In</span>
+                  <span className="section-heading-upper mb-3">Come On In</span>
                   <span className="section-heading-lower">We're Open</span>
                 </h2>
                 <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
@@ -59,10 +59,31 @@ const IndexPage = () => {
                     Harwich, MA 02645
                   </em>
                 </p>
-                <div className="intro-button mx-auto">
-                  <a className="btn btn-primary btn-xl mb-4" href="/#">
-                    Order Online!
-                  </a>
+                <div className="row">
+                  <div className="intro-button mx-auto">
+                    <a
+                      className="btn btn-primary btn-xl mb-4"
+                      href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                    >
+                      Order Online!
+                    </a>
+                  </div>
+                  <div className="intro-button mx-auto">
+                    <a
+                      className="btn btn-primary btn-xl mb-4"
+                      href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/giftcards"
+                    >
+                      Gift Cards
+                    </a>
+                  </div>
+                  <div className="intro-button mx-auto">
+                    <a
+                      className="btn btn-primary btn-xl mb-4"
+                      href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/rewardsSignup"
+                    >
+                      Rewards Signup
+                    </a>
+                  </div>
                 </div>
                 <p className="mb-0">
                   <small>

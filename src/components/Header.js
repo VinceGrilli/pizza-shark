@@ -22,7 +22,7 @@ export default class Header extends Component {
         <div className="container">
           <a
             className="navbar-brand text-uppercase text-expanded font-weight-bold "
-            href="/#"
+            href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
           >
             Order Online
           </a>
@@ -58,12 +58,12 @@ export default class Header extends Component {
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/menu"
+                  to="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
                 >
                   Menu
                 </Link>
               </li>
-              <li
+              {/* <li
                 className={`nav-item px-lg-3 ${
                   activeLink === 'about' ? 'active' : ''
                 }`}
@@ -74,7 +74,7 @@ export default class Header extends Component {
                 >
                   About
                 </Link>
-              </li>
+              </li> */}
               <li
                 className={`nav-item px-lg-2 ${
                   activeLink === 'store' ? 'active' : ''

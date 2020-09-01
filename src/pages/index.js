@@ -59,13 +59,34 @@ const IndexPage = () => (
                 praesentium, natus placeat voluptatum at eaque soluta fuga ea
                 culpa temporibus optio.
               </p>
+              <div className="row mt-5">
+                <div className="intro-button mx-auto">
+                  <a
+                    className="btn btn-primary btn-xl mb-4"
+                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                  >
+                    Order Online!
+                  </a>
+                </div>
+                <div className="intro-button mx-auto">
+                  <a
+                    className="btn btn-primary btn-xl mb-4"
+                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/giftcards"
+                  >
+                    Gift Cards
+                  </a>
+                </div>
+                <div className="intro-button mx-auto">
+                  <a
+                    className="btn btn-primary btn-xl mb-4"
+                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/rewardsSignup"
+                  >
+                    Rewards Signup
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="mx-auto pt-5 row justify-content-center">
-          <a className="btn btn-white absolute btn-xl" href="/#">
-            Order Online Now!
-          </a>
         </div>
       </div>
     </section>
