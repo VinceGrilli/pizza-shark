@@ -22,7 +22,7 @@ export default class Header extends Component {
         <div className="container">
           <a
             className="navbar-brand text-uppercase text-expanded font-weight-bold "
-            href="/#"
+            href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
           >
             Order Online
           </a>
@@ -52,30 +52,6 @@ export default class Header extends Component {
                 </Link>
               </li>
               <li
-                className={`nav-item px-lg-3 ${
-                  activeLink === 'menu' ? 'active' : ''
-                }`}
-              >
-                <Link
-                  className="nav-link text-uppercase text-expanded"
-                  to="/menu"
-                >
-                  Menu
-                </Link>
-              </li>
-              <li
-                className={`nav-item px-lg-3 ${
-                  activeLink === 'about' ? 'active' : ''
-                }`}
-              >
-                <Link
-                  className="nav-link text-uppercase text-expanded"
-                  to="/about"
-                >
-                  About
-                </Link>
-              </li>
-              <li
                 className={`nav-item px-lg-2 ${
                   activeLink === 'store' ? 'active' : ''
                 }`}
@@ -87,6 +63,30 @@ export default class Header extends Component {
                   Hours & Location
                 </Link>
               </li>
+              <li
+                className={`nav-item px-lg-3 ${
+                  activeLink === 'menu' ? 'active' : ''
+                }`}
+              >
+                <Link
+                  className="nav-link text-uppercase text-expanded"
+                  to="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                >
+                  Menu
+                </Link>
+              </li>
+              {/* <li
+                className={`nav-item px-lg-3 ${
+                  activeLink === 'about' ? 'active' : ''
+                }`}
+              >
+                <Link
+                  className="nav-link text-uppercase text-expanded"
+                  to="/about"
+                >
+                  About
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>
