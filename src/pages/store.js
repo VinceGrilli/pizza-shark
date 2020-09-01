@@ -87,6 +87,12 @@ const IndexPage = () => {
                 </div>
                 <p className="mb-0">
                   <small>
+                    <em>Email</em>
+                  </small>
+                  <br />
+                  info@capepizzashark.com
+                  <br />
+                  <small>
                     <em>Call Anytime</em>
                   </small>
                   <br />
