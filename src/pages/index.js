@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
+import psic from '../assets/images/pizza-shark-ice-cream2.png';
 import bog from '../assets/images/plgs-bog.jpg';
 const IndexPage = () => (
   <Layout activeLink="home">
@@ -39,7 +39,11 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
+    <section>
+      <h1 className="site-heading text-center text-white d-block">
+        <img className="logo-img img-fluid mt-4 mb-0" src={psic} alt="logo2" />
+      </h1>
+    </section>
     <section className="page-section cta container">
       <div className="container">
         <div className="row">

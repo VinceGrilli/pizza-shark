@@ -37,7 +37,7 @@ class Layout extends Component {
                 {
                   name: 'keywords',
                   content:
-                    'pizza shark, pizza, shark, brewster, harwich, ice cream, icecream, cape, cape cod, take out, delivery',
+                    'pizza shark, pizza, shark, brewster, harwich, ice cream, icecream, cape, cape cod, take out, delivery, breakfast, sandwiches, subs, hero, sandwich',
                 },
               ]}
             >
