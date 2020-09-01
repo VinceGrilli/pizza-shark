@@ -10,25 +10,42 @@ const IndexPage = () => (
         <div className="intro">
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
-              <span className="section-heading-lower mb-3">
-                pizza & ice cream
-              </span>
+              <span className="section-heading-lower mb-3">the best stop</span>
               <span className="section-heading-upper">
-                at the pleasent lake general store
+                on the cape cod rail trail
               </span>
             </h2>
             <p className="mb-3">
-              Located on the Brewster-Harwich line, directly on the Cape Cod
-              Rail Trail. Now scooping Giford's famous ice cream at our take out
-              window. Pizza, Salad, & Sandwiches now avalible! Breakfast, Beer &
-              Wine, and General Store essentials coming soon! Please use our
-              hassle-free online ordering system for the quickest and easiest
-              service. Delivery to all of Brewster and Harwich coming soon!
+              Stop by our convenient takeout window adjacent to the Cape Cod
+              Rail Trail or try our new easy-to-use Online Ordering system. Sign
+              up for our rewards program to get $15 off for every 150 point you
+              earn! Gift cards now available online!
             </p>
-            <div className="intro-button mx-auto">
-              <a className="btn btn-primary btn-xl" href="/#">
-                Order Online!
-              </a>
+            <div className="row mt-5">
+              <div className="intro-button mx-auto">
+                <a
+                  className="btn btn-primary btn-lg mb-4"
+                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/giftcards"
+                >
+                  Gift Cards
+                </a>
+              </div>
+              <div className="intro-button mx-auto">
+                <a
+                  className="btn btn-primary btn-lg mb-4"
+                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/rewardsSignup"
+                >
+                  Rewards Signup
+                </a>
+              </div>
+              <div className="intro-button mx-auto">
+                <a
+                  className="btn btn-primary btn-lg mb-4"
+                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                >
+                  Order Online
+                </a>
+              </div>
             </div>
           </div>
           <img
@@ -51,25 +68,28 @@ const IndexPage = () => (
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-4">
                 <span className="section-heading-upper mb-3">
-                  The Best Stop
+                  pizza & ice cream
                 </span>
                 <span className="section-heading-lower">
-                  on the cape cod rail trail
+                  at the pleasant lake general store
                 </span>
               </h2>
               <p className="mb-0">
-                Stop by our convenient take out window adjacent to the Cape Cod
-                Rail Trail or try our new easy-to-use Online Ordering system.
-                Sign up for our rewards program to get $15 off for every 150
-                point you earn! Gift cards now avalible online!
+                Located on the Brewster-Harwich line, directly on the Cape Cod
+                Rail Trail. Now scooping Gifford's famous ice cream at our
+                takeout window. Pizza, Salad, & Sandwiches now available!
+                Breakfast, Beer & Wine, and General Store essentials coming
+                soon! Please use our hassle-free online ordering system for the
+                quickest and easiest service. Delivery to all of Brewster and
+                Harwich coming soon!
               </p>
               <div className="row mt-5">
                 <div className="intro-button mx-auto">
                   <a
                     className="btn btn-primary btn-xl mb-4"
-                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/rewardsSignup"
                   >
-                    Order Online!
+                    Rewards Signup
                   </a>
                 </div>
                 <div className="intro-button mx-auto">
@@ -83,9 +103,9 @@ const IndexPage = () => (
                 <div className="intro-button mx-auto">
                   <a
                     className="btn btn-primary btn-xl mb-4"
-                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/rewardsSignup"
+                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
                   >
-                    Rewards Signup
+                    Order Online
                   </a>
                 </div>
               </div>

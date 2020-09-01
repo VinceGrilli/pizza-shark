@@ -9,5 +9,5 @@ module.exports = {
   manifestIcon: 'src/assets/images/pizza-shark-only-sm.png',
   pathPrefix: `/pizza-shark/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Pizza Shark',
-  subHeading: 'At the Pleasent Lake General Store',
+  subHeading: 'At the Pleasant Lake General Store',
 };

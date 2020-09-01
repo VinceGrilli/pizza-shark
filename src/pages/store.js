@@ -19,38 +19,38 @@ const IndexPage = () => {
                 <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Sunday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Monday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Tuesday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Wednesday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Thursday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Friday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Saturday
-                    <span className="ml-auto">6:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
                   </li>
-                  <li className="list-unstyled-item list-hours-item d-flex">
+                  {/* <li className="list-unstyled-item list-hours-item d-flex">
                     Late night takout
                     <br />
                     Friday & Saturday
                     <span className="ml-auto">9:00 PM to 12:00 AM</span>
-                  </li>
+                  </li> */}
                 </ul>
                 <p className="address mb-4">
                   <em>
@@ -90,7 +90,7 @@ const IndexPage = () => {
                     <em>Email</em>
                   </small>
                   <br />
-                  info@capepizzashark.com
+                  pleasantlakepizzashark@gmail.com
                   <br />
                   <small>
                     <em>Call Anytime</em>

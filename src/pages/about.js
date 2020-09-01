@@ -11,7 +11,7 @@ const IndexPage = () => (
         <img
           className="img-fluid rounded about-heading-img mb-3 mb-lg-5"
           src={oldtimey}
-          alt="Old timey post card of the pleasent lake general store"
+          alt="Old timey post card of the pleasant lake general store"
         />
         <div className="about-heading-content mb-3">
           <div className="row">
@@ -33,7 +33,7 @@ const IndexPage = () => (
                   the bike trail replaced the tracks.
                 </p>
                 <p className="mb-0">
-                  In 2020 Pizza Shark took over the Pleasent Lake General Store.
+                  In 2020 Pizza Shark took over the Pleasant Lake General Store.
                   Our location is old-school but we're not but old-fashioned.
                 </p>
               </div>
