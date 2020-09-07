@@ -18,7 +18,7 @@ const IndexPage = () => (
             <p className="mb-3">
               Stop by our convenient takeout window adjacent to the Cape Cod
               Rail Trail or try our new easy-to-use Online Ordering system. Sign
-              up for our rewards program to get $15 off for every 150 point you
+              up for our rewards program to get $15 off for every 150 points you
               earn! Gift cards now available online!
             </p>
             <div className="row mt-5">
