@@ -65,7 +65,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-xl-9 mx-auto">
-            <div className="cta-inner text-center rounded">
+            <div className="cta-inner px-3 px-lg-5 text-center rounded">
               <h2 className="section-heading mb-4">
                 <span className="section-heading-upper mb-3">
                   pizza & ice cream
@@ -74,7 +74,7 @@ const IndexPage = () => (
                   at the pleasant lake general store
                 </span>
               </h2>
-              <p className="mb-0">
+              <p className="mb-0 px-3.5">
                 Located on the Brewster-Harwich line, directly on the Cape Cod
                 Rail Trail. Now scooping Gifford's famous ice cream at our
                 takeout window. Pizza, Salad, & Sandwiches now available!
@@ -83,7 +83,7 @@ const IndexPage = () => (
                 quickest and easiest service. Delivery to all of Brewster and
                 Harwich coming soon!
               </p>
-              <div className="row mt-5">
+              <div className="row px-5 mt-5">
                 <div className="intro-button mx-auto">
                   <a
                     className="btn btn-primary btn-xl mb-4"
