@@ -54,7 +54,7 @@ const Header = () => {
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/store"
+                  to="/hours"
                 >
                   Hours
                 </Link>

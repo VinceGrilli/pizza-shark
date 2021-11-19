@@ -4,9 +4,8 @@ import Layout from '../components/Layout';
 import Map from '../components/Map';
 
 const IndexPage = () => {
-  console.log(process.env);
   return (
-    <Layout activeLink="store">
+    <Layout activeLink="hours">
       <section className="page-section cta container rounded">
         <div className="container">
           <div className="row">

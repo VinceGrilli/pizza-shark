@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import bog from '../assets/images/plgs-bog.jpg';
 import oldtimey from '../assets/images/plgs-old-timey.jpg';
 const IndexPage = () => (
-  <Layout activeLink="about">
+  <Layout activeLink="locations">
     <section className="page-section about-heading">
       <div className="container">
         <img
