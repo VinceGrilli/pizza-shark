@@ -5,10 +5,45 @@ import psic from '../assets/images/pizza-shark-ice-cream2.png';
 import plgs from '../assets/images/plgs5.jpg';
 const IndexPage = () => (
   <Layout activeLink="home">
+    <section className="page-section clearfix m ">
+      <div className="container mb-5 ">
+        <div className="intro ">
+          <div className="intro-text left-0 text-center bg-faded p-5 rounded ">
+            <h2 className="section-heading mb-4">
+              <span className="section-heading-lower mb-3">new location now open!</span>
+              <span className="section-heading-upper">
+                at the chatham orpheum
+              </span>
+            </h2>
+            <p className="mb-3">
+              Stop by our convenient takeout window adjacent to the Cape Cod
+              Rail Trail or try our new easy-to-use Online Ordering system. Sign
+              up for our rewards program to get $15 off for every 150 points you
+              earn! Gift cards now available online!
+            </p>
+            <div className="row mt-5">
+              <div className="intro-button mx-auto">
+                <a
+                  className="btn btn-primary btn-lg mb-4"
+                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                >
+                  Order Online
+                </a>
+              </div>
+            </div>
+          </div>
+          <img
+            className="intro-img img-fluid mb-3 mb-lg-0 rounded float-right"
+            src={plgs}
+            alt="Old Store Front"
+          />
+        </div>
+      </div>
+    </section>
     <section className="page-section clearfix">
       <div className="container">
         <div className="intro">
-          <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+          <div className="intro-text left-0 text-center bg-faded p-5 rounded float-right">
             <h2 className="section-heading mb-4">
               <span className="section-heading-lower mb-3">the best stop</span>
               <span className="section-heading-upper">

@@ -1,19 +1,15 @@
-import React, { Component } from 'react';
-import { Link } from 'gatsby';
-export default class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      openMenu: false,
-    };
-  }
-  toggleMenu = value => {
-    this.setState({ openMenu: value });
-  };
+import React from 'react';
 
-  render() {
-    const { openMenu } = this.state;
-    const { activeLink } = this.props;
+import { Link } from 'gatsby';
+import { useState } from 'react';
+import fbicon from '../assets/images/Facebook.svg'
+import instaicon from '../assets/images/Instagram.svg'
+
+const Header = () => {
+  
+  const [menuOpen, setMenuOpen] = useState(false)
+  const [activeLink, setActiveLink] = useState('')
+    
     return (
       <nav
         className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-2"
@@ -21,27 +17,27 @@ export default class Header extends Component {
       >
         <div className="container">
           <a
-            className="navbar-brand text-uppercase text-expanded font-weight-bold "
+            className="navbar-brand text-uppercase text-expanded font-weight-bold mx-auto"
             href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
           >
-            Order Online
+            Order Harwich
           </a>
 
           <button
-            onClick={_ => this.toggleMenu(!openMenu)}
-            className={`navbar-toggler  ${openMenu ? '' : 'collapsed'}`}
+            onClick={() => {setMenuOpen(!menuOpen)}}
+            className={`navbar-toggler  ${menuOpen ? '' : 'collapsed'}`}
             type="button"
             aria-controls="navbarResponsive"
-            aria-expanded={openMenu}
+            aria-expanded={menuOpen}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
+            className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`}
             id="navbarResponsive"
           >
-            <ul className="navbar-nav text-center ml-auto">
+            <ul className="navbar-nav text-center mx-auto ">
               <li
                 className={`nav-item px-lg-3 ${
                   activeLink === 'home' ? 'active' : ''
@@ -60,37 +56,44 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/store"
                 >
-                  Hours & Location
+                  Hours
                 </Link>
               </li>
               <li
                 className={`nav-item px-lg-3 ${
-                  activeLink === 'menu' ? 'active' : ''
+                  activeLink === 'locations' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                  to="/locations"
                 >
-                  Menu
+                  Locations
                 </Link>
               </li>
-              {/* <li
-                className={`nav-item px-lg-3 ${
-                  activeLink === 'about' ? 'active' : ''
-                }`}
-              >
-                <Link
-                  className="nav-link text-uppercase text-expanded"
-                  to="/about"
-                >
-                  About
-                </Link>
-              </li> */}
             </ul>
+            <div className="navbar-end mx-2 text-center">
+              
+                <a href="https://www.facebook.com/PleasantLakePizza" title="facebook" className=" rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl">
+                  <img src={fbicon} alt="facebook" className="social-item"/>
+                </a>
+              
+              
+                <a href="https://www.instagram.com/pizzasharkcc/" title="instagram" className="mr-2 rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl">
+                  <img src={instaicon} alt="instagram" className="social-item"/>
+                </a>
+              
+            </div>
           </div>
+          <a
+          className="navbar-brand text-uppercase text-expanded font-weight-bold mx-auto"
+          href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+          >
+            Order Chatham
+          </a>
         </div>
       </nav>
     );
-  }
 }
+
+export default Header
