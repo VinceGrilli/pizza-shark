@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-casual",
-  "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Casual by startbootstrap",
+  "name": "pizza_shark",
+  "version": "2.0",
+  "description": "Offical Home of Pizza Shark Cape Cod",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-casual.git"
+    "url": "git+https://github.com/VinceGrilli/pizza-shark"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Built to Code",
+    "email": "vince@builttocode.dev"
   },
   "dependencies": {
     "gatsby": "^2.20.2",

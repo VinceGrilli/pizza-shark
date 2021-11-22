@@ -15,26 +15,37 @@ const Header = () => {
         className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-2"
         id="mainNav"
       >
-        <div className="container">
+        
+          <div className="col-10 col-sm-auto text-left flex-sm-row">
           <a
-            className="navbar-brand text-uppercase text-expanded font-weight-bold mx-auto"
+            type="button"
+            className="btn btn-link navbar-brand text-uppercase sm-text-left font-weight-bold "
             href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
           >
             Order Harwich
           </a>
-
-          <button
-            onClick={() => {setMenuOpen(!menuOpen)}}
-            className={`navbar-toggler  ${menuOpen ? '' : 'collapsed'}`}
+          <a
             type="button"
-            aria-controls="navbarResponsive"
-            aria-expanded={menuOpen}
-            aria-label="Toggle navigation"
+            className={`btn btn-link navbar-brand text-uppercase font-weight-bold `}
+            href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+            Order Chatham
+          </a>
+          </div>
+          <div className="col-2 col-sm-auto ">
+            <button
+              onClick={() => {setMenuOpen(!menuOpen)}}
+              className={`navbar-toggler justify-content-end  ${menuOpen ? '' : 'collapsed'}`}
+              type="button"
+              aria-controls="navbarResponsive"
+              aria-expanded={menuOpen}
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          </div>
           <div
-            className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`}
+            className={`collapse navbar-collapse  ${menuOpen ? 'show' : ''}`}
             id="navbarResponsive"
           >
             <ul className="navbar-nav text-center mx-auto ">
@@ -43,7 +54,7 @@ const Header = () => {
                   activeLink === 'home' ? 'active' : ''
                 }`}
               >
-                <Link className="nav-link text-uppercase text-expanded" to="/">
+                <Link className={`nav-link text-uppercase text-expanded ${menuOpen ? 'pt-3' : ''}`} to="/">
                   Home
                 </Link>
               </li>
@@ -85,13 +96,8 @@ const Header = () => {
               
             </div>
           </div>
-          <a
-          className="navbar-brand text-uppercase text-expanded font-weight-bold mx-auto"
-          href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
-          >
-            Order Chatham
-          </a>
-        </div>
+          
+        
       </nav>
     );
 }
