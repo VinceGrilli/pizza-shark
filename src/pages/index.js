@@ -22,12 +22,20 @@ const IndexPage = () => (
               earn! Gift cards now available online!
             </p>
             <div className="row mt-5">
-              <div className="intro-button mx-auto">
+              <div className="intro-button mx-auto text-uppercase">
+                <a
+                  className="btn btn-primary btn-lg mb-4"
+                  href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+                >
+                  Order chatham
+                </a>
+              </div>
+              <div className="intro-button mx-auto text-uppercase">
                 <a
                   className="btn btn-primary btn-lg mb-4"
                   href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
                 >
-                  Order Online
+                  order harwich
                 </a>
               </div>
             </div>
@@ -40,62 +48,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="page-section clearfix">
-      <div className="container">
-        <div className="intro">
-          <div className="intro-text left-0 text-center bg-faded p-5 rounded float-right">
-            <h2 className="section-heading mb-4">
-              <span className="section-heading-lower mb-3">the best stop</span>
-              <span className="section-heading-upper">
-                on the cape cod rail trail
-              </span>
-            </h2>
-            <p className="mb-3">
-              Stop by our convenient takeout window adjacent to the Cape Cod
-              Rail Trail or try our new easy-to-use Online Ordering system. Sign
-              up for our rewards program to get $15 off for every 150 points you
-              earn! Gift cards now available online!
-            </p>
-            <div className="row mt-5">
-              <div className="intro-button mx-auto">
-                <a
-                  className="btn btn-primary btn-lg mb-4"
-                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/giftcards"
-                >
-                  Gift Cards
-                </a>
-              </div>
-              <div className="intro-button mx-auto">
-                <a
-                  className="btn btn-primary btn-lg mb-4"
-                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave/rewardsSignup"
-                >
-                  Rewards Signup
-                </a>
-              </div>
-              <div className="intro-button mx-auto">
-                <a
-                  className="btn btn-primary btn-lg mb-4"
-                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
-                >
-                  Order Online
-                </a>
-              </div>
-            </div>
-          </div>
-          <img
-            className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-            src={plgs}
-            alt="Old Store Front"
-          />
-        </div>
-      </div>
-    </section>
-    <section>
-      <h1 className="site-heading text-center text-white d-block">
-        <img className="logo-img img-fluid mt-4 mb-0" src={psic} alt="logo2" />
-      </h1>
-    </section>
+    
     <section className="page-section cta container rounded">
       <div className="container">
         <div className="row">
