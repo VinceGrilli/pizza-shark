@@ -187,7 +187,7 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <div className="container mb-4">
+      {/* <div className="container mb-4">
         <Map
           isMarkerShown
           googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.GATSBY_GOOGLE_KEY}`}
@@ -195,7 +195,7 @@ const IndexPage = () => {
           containerElement={<div style={{ height: `400px` }} />}
           mapElement={<div style={{ height: `100%` }} />}
         />
-      </div>
+      </div> */}
     </Layout>
   );
 };

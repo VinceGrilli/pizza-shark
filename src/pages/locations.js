@@ -1,19 +1,13 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import bog from '../assets/images/plgs-bog.jpg';
 import oldtimey from '../assets/images/plgs-old-timey.jpg';
+
 const IndexPage = () => (
   <Layout activeLink="locations">
     <section className="page-section about-heading">
       <div className="container">
-        <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-5"
-          src={oldtimey}
-          alt="Old timey post card of the pleasant lake general store"
-        />
-        <div className="about-heading-content mb-3">
+        <div className="about-heading-content mt-5 mb-3 ">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
@@ -32,14 +26,15 @@ const IndexPage = () => (
                   Cranberries from the nearby bogs were shipped by rail until
                   the bike trail replaced the tracks.
                 </p>
-                <p className="mb-0">
-                  In 2020 Pizza Shark took over the Pleasant Lake General Store.
-                  Our location is old-school but we're not but old-fashioned.
-                </p>
               </div>
             </div>
           </div>
         </div>
+        <img
+          className="img-fluid rounded about-heading-img mb-3"
+          src={oldtimey}
+          alt="Old timey post card of the pleasant lake general store"
+        />
         <img
           className="img-fluid rounded about-heading-img mb-3 mb-lg-5"
           src={bog}
