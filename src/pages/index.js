@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import psic from '../assets/images/pizza-shark-ice-cream2.png';
 import plgs from '../assets/images/plgs5.jpg';
+import psco from '../assets/images/orpheum-edited.jpg';
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix m ">
@@ -16,10 +17,7 @@ const IndexPage = () => (
               </span>
             </h2>
             <p className="mb-3">
-              Stop by our convenient takeout window adjacent to the Cape Cod
-              Rail Trail or try our new easy-to-use Online Ordering system. Sign
-              up for our rewards program to get $15 off for every 150 points you
-              earn! Gift cards now available online!
+            Beverages and pizza slices available to take into the theater for your favorite movies, or order online for takeout and delivery from inside the historic Orpheum Theater in downtown Chatham. Convenient pick-up in the lobby. Stay tuned for updates and an exciting bar menu debuting in 2022! 
             </p>
             <div className="row mt-5">
               <div className="intro-button mx-auto text-uppercase">
@@ -42,13 +40,17 @@ const IndexPage = () => (
           </div>
           <img
             className="intro-img img-fluid mb-3 mb-lg-0 rounded float-right"
-            src={plgs}
+            src={psco}
             alt="Old Store Front"
           />
         </div>
       </div>
     </section>
-    
+    <section>
+      <h1 className="site-heading text-center text-white d-block">
+        <img className="logo-img img-fluid mt-5 mb-0" src={psic} alt="logo2" />
+      </h1>
+    </section>
     <section className="page-section cta container rounded">
       <div className="container">
         <div className="row">
@@ -56,22 +58,53 @@ const IndexPage = () => (
             <div className="cta-inner px-3 px-lg-5 text-center rounded">
               <h2 className="section-heading mb-4">
                 <span className="section-heading-upper mb-3">
-                  pizza & ice cream
+                  pizza shark newsletter
                 </span>
                 <span className="section-heading-lower">
-                  at the pleasant lake general store
+                  stay up to date with everything pizza shark!
                 </span>
               </h2>
-              <p className="mb-0 px-3.5">
-                Located on the Brewster-Harwich line, directly on the Cape Cod
-                Rail Trail. Now scooping Gifford's famous ice cream at our
-                takeout window. Pizza, Salad, & Sandwiches now available!
-                Breakfast, Beer & Wine, and General Store essentials coming
-                soon! Please use our hassle-free online ordering system for the
-                quickest and easiest service. Delivery to all of Brewster and
-                Harwich coming soon!
-              </p>
+              <ul className="list-unstyled list-hours mb-5 text-center mx-auto">
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    <a className="text-center" href="https://mailchi.mp/5524968395ae/the-holidays-are-coming-and-we-are-ready?e=[UNIQID]">
+                      The holidays are coming and we are READY!
+                    </a>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    <a className="" href="https://mailchi.mp/ff11e35637fe/fall-is-here-wings-are-back?e=[UNIQID]">
+                      Fall is here & wings are BACK!
+                    </a>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    <a className="text-center" href="https://mailchi.mp/68c966f7d50b/hark-hark-its-pizza-shark-wines?e=[UNIQID]">
+                      Hark! Hark! It's Pizza Shark... wines?!
+                    </a>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    <a className="text-center" href="https://mailchi.mp/56947d0915bc/swimming-into-summer-2021?e=[UNIQID]">
+                      Swimming into Summer 2021!
+                    </a>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    <a className="text-center" href="https://mailchi.mp/940c7993220d/pizza-shark-the-little-red-store-is-now-open?e=[UNIQID]">
+                      PIZZA SHARK! The little red store is now OPEN!
+                    </a>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    <a className="text-center" href="https://mailchi.mp/70be2e1da639/welcome-to-the-shark-squad?e=[UNIQID]">
+                      Welcome to the Shark Squad! 
+                    </a>
+                  </li>
+              </ul>
               <div className="row px-5 mt-5">
+                <div className="intro-button mx-auto">
+                  <a
+                    className="btn btn-primary btn-xl mb-4"
+                    href="https://pleasantlakepizzashark.us2.list-manage.com/subscribe?u=0a81ea01ad8dcdc85a675834a&id=c0089ef062"
+                  >
+                    Subscribe
+                  </a>
+                </div>
                 <div className="intro-button mx-auto">
                   <a
                     className="btn btn-primary btn-xl mb-4"
@@ -88,14 +121,7 @@ const IndexPage = () => (
                     Gift Cards
                   </a>
                 </div>
-                <div className="intro-button mx-auto">
-                  <a
-                    className="btn btn-primary btn-xl mb-4"
-                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
-                  >
-                    Order Online
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>
