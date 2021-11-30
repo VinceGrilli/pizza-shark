@@ -15,34 +15,20 @@ const IndexPage = () => {
                   <span className="section-heading-lower mb-3">Chatham Hours</span>
                   <span className="section-heading-upper ">Pizza Shark At The Chatham Orpheum</span>
                 </h2>
-                <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
-                  <li className="list-unstyled-item list-hours-item d-flex">
-                    Sunday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
-                  </li>
-                  <li className="list-unstyled-item list-hours-item d-flex">
-                    Monday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
-                  </li>
-                  <li className="list-unstyled-item list-hours-item d-flex">
-                    Tuesday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
-                  </li>
-                  <li className="list-unstyled-item list-hours-item d-flex">
-                    Wednesday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
-                  </li>
+                <strong>Online Ordering Hours</strong>
+                <ul className="list-unstyled list-hours my-4 text-left mx-auto">
+                  
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Thursday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">4:00 PM to 8:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Friday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">4:00 PM to 8:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Saturday
-                    <span className="ml-auto">10:00 AM to 9:00 PM</span>
+                    <span className="ml-auto">4:00 PM to 8:00 PM</span>
                   </li>
                 </ul>
                 <p className="address mb-4">
@@ -86,7 +72,7 @@ const IndexPage = () => {
                   pleasantlakepizzashark@gmail.com
                   <br />
                   <small>
-                    <em>Call Anytime</em>
+                    <em>Phone</em>
                   </small>
                   <br />
                   (508) 000-0000
@@ -176,7 +162,7 @@ const IndexPage = () => {
                   pleasantlakepizzashark@gmail.com
                   <br />
                   <small>
-                    <em>Call Anytime</em>
+                    <em>Phone</em>
                   </small>
                   <br />
                   (508) 432-6060
