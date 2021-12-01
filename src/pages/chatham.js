@@ -6,7 +6,12 @@ const Chatham = () => (
   <Layout activeLink="locations">
     <section className="page-section about-heading">
       <div className="container">
-        <div className="about-heading-content mt-5 mb-3 ">
+        <img
+          className="img-fluid rounded about-heading-img"
+          src={orpheum}
+          alt="The Historic Chatham Orpheum"
+        />
+        <div className="about-heading-content mb-3 ">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
@@ -29,11 +34,7 @@ const Chatham = () => (
               </div>
             </div>
           </div>
-        <img
-          className="img-fluid rounded about-heading-img"
-          src={orpheum}
-          alt="The Historic Chatham Orpheum"
-        />
+        
         </div>
       </div>
     </section>

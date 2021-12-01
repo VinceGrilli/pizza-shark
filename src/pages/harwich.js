@@ -8,7 +8,12 @@ const Harwich = () => (
   <Layout activeLink="locations">
     <section className="page-section about-heading">
       <div className="container">
-        <div className="about-heading-content mt-5 ">
+        <img
+          className="img-fluid rounded about-heading-img"
+          src={plgs}
+          alt="Outside the pleasant lake general store"
+          />
+        <div className="about-heading-content ">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
