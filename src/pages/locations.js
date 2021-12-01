@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import orpheum from '../assets/images/orpheum-edited.jpg';
 import store from '../assets/images/store-inside.jpg';
 
+
 const IndexPage = () => (
   <Layout activeLink="locations">
     <section className="page-section about-heading">
