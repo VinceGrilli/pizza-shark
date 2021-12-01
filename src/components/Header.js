@@ -20,14 +20,14 @@ const Header = () => {
           <a
             type="button"
             className="btn btn-link navbar-brand text-uppercase sm-text-left font-weight-bold "
-            href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+            href="/harwich"
           >
             Order Harwich
           </a>
           <a
             type="button"
             className={`btn btn-link navbar-brand text-uppercase font-weight-bold `}
-            href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+            href="/chatham"
           >
             Order Chatham
           </a>
@@ -68,18 +68,6 @@ const Header = () => {
                   to="/hours"
                 >
                   Hours
-                </Link>
-              </li>
-              <li
-                className={`nav-item px-lg-3 ${
-                  activeLink === 'locations' ? 'active' : ''
-                }`}
-              >
-                <Link
-                  className="nav-link text-uppercase text-expanded"
-                  to="/locations"
-                >
-                  Locations
                 </Link>
               </li>
             </ul>

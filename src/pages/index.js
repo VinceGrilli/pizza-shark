@@ -2,11 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import psic from '../assets/images/pizza-shark-ice-cream2.png';
-import plgs from '../assets/images/plgs5.jpg';
 import orpheum from '../assets/images/orpheum.jpg';
+
 const IndexPage = () => (
   <Layout activeLink="home">
-    <section className="page-section clearfix m ">
+    <section className="page-section clearfix  ">
       <div className="container mb-5 ">
         <div className="intro ">
           <div className="intro-text left-0 text-center bg-faded p-5 rounded ">
@@ -23,7 +23,7 @@ const IndexPage = () => (
               <div className="intro-button mx-auto text-uppercase">
                 <a
                   className="btn btn-primary btn-lg mb-4"
-                  href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+                  href="/chatham"
                 >
                   Order chatham
                 </a>
@@ -31,7 +31,7 @@ const IndexPage = () => (
               <div className="intro-button mx-auto text-uppercase">
                 <a
                   className="btn btn-primary btn-lg mb-4"
-                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                  href="/harwich"
                 >
                   order harwich
                 </a>
@@ -45,13 +45,10 @@ const IndexPage = () => (
           />
         </div>
       </div>
+      
     </section>
-    <section>
-      <h1 className="site-heading text-center text-white d-block">
-        <img className="logo-img img-fluid mt-5 mb-0" src={psic} alt="logo2" />
-      </h1>
-    </section>
-    <section className="page-section cta container rounded">
+    <br />
+    <section className="page-section cta container rounded mt-5">
       <div className="container">
         <div className="row">
           <div className="col-xl-9 mx-auto">

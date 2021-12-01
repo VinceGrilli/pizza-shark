@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import orpheum from '../assets/images/orpheum.jpg';
 import store from '../assets/images/store-inside.jpg';
+import plgs from '../assets/images/plgs5.jpg';
+import psic from '../assets/images/pizza-shark-ice-cream2.png';
 
-
-const IndexPage = () => (
+const Harwich = () => (
   <Layout activeLink="locations">
     <section className="page-section about-heading">
       <div className="container">
-        <div className="about-heading-content mt-5 mb-3 ">
+        <div className="about-heading-content mt-5 ">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
@@ -25,7 +25,7 @@ const IndexPage = () => (
                       className="btn btn-primary btn-xl mb-4"
                       href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
                     >
-                      Order Harwich
+                      Order Online in Harwich
                     </a>
                   </div>
               </div>
@@ -34,45 +34,21 @@ const IndexPage = () => (
         </div>
         <img
           className="img-fluid rounded about-heading-img mb-3"
-          src={store}
-          alt="Old timey post card of the pleasant lake general store"
-        />
-      </div>
-    </section>
-    <section className="page-section about-heading">
-      <div className="container">
-        <div className="about-heading-content mt-5 mb-3 ">
-          <div className="row">
-            <div className="col-xl-9 col-lg-10 mx-auto">
-              <div className="bg-faded rounded p-5">
-                <h2 className="section-heading mb-4">
-                  <span className="section-heading-lower text-center mb-3">
-                    pizza shark at the chatham orpheum
-                  </span>
-                </h2>
-                <p className="text-center">
-                Beverages and pizza slices available to take into the theater for your favorite movies, or order online for takeout and delivery from inside the historic Orpheum Theater in downtown Chatham. Convenient pick-up in the lobby. Stay tuned for updates and an exciting bar menu debuting in 2022! 
-                </p>
-                <div className="intro-button text-center mt-5 mx-auto">
-                  <a
-                    className="btn btn-primary btn-xl mb-4"
-                    href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
-                  >
-                    Order Chatham
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          src={plgs}
+          alt="Outside the pleasant lake general store"
+          />
         <img
           className="img-fluid rounded about-heading-img mb-3"
-          src={orpheum}
-          alt="Old timey post card of the pleasant lake general store"
+          src={store}
+          alt="Inside the pleasant lake general store"
         />
       </div>
+      <div className="text-center d-block">
+        <img className="logo-img img-fluid" src={psic} alt="logo2" />
+      </div>
     </section>
+    
   </Layout>
 );
 
-export default IndexPage;
+export default Harwich;
