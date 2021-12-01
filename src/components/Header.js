@@ -8,7 +8,7 @@ import instaicon from '../assets/images/Instagram.svg'
 const Header = () => {
   
   const [menuOpen, setMenuOpen] = useState(false)
-  const [activeLink, setActiveLink] = useState('')
+  const [activeLink, setActiveLink] = useState('Home')
     
     return (
       <nav
@@ -51,7 +51,7 @@ const Header = () => {
             <ul className="navbar-nav text-center mx-auto ">
               <li
                 className={`nav-item px-lg-3 ${
-                  activeLink === 'home' ? 'active' : ''
+                  activeLink === 'Home' ? '' : setActiveLink('Home')
                 }`}
               >
                 <Link className={`nav-link text-uppercase text-expanded ${menuOpen ? 'pt-3' : ''}`} to="/">
