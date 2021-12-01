@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import orpheum from '../assets/images/orpheum-edited.jpg';
+import orpheum from '../assets/images/orpheum.jpg';
 import store from '../assets/images/store-inside.jpg';
 
 

@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import psic from '../assets/images/pizza-shark-ice-cream2.png';
 import plgs from '../assets/images/plgs5.jpg';
-import psco from '../assets/images/orpheum-edited.jpg';
+import orpheum from '../assets/images/orpheum.jpg';
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix m ">
@@ -40,7 +40,7 @@ const IndexPage = () => (
           </div>
           <img
             className="intro-img img-fluid mb-3 mb-lg-0 rounded float-right"
-            src={psco}
+            src={orpheum}
             alt="Old Store Front"
           />
         </div>
