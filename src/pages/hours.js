@@ -173,7 +173,6 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-
       {/* <div className="container mb-4">
         <Map
           isMarkerShown
