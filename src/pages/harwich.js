@@ -39,11 +39,6 @@ const Harwich = () => (
         </div>
         <img
           className="img-fluid rounded about-heading-img mb-3"
-          src={plgs}
-          alt="Outside the pleasant lake general store"
-          />
-        <img
-          className="img-fluid rounded about-heading-img mb-3"
           src={store}
           alt="Inside the pleasant lake general store"
         />
