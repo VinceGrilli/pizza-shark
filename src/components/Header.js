@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import { useState } from 'react';
 import fbicon from '../assets/images/Facebook.svg'
 import instaicon from '../assets/images/Instagram.svg'
+import plgs from '../assets/images/plgs5.jpg'
+import orpheum from '../assets/images/orpheum.jpg'
 
 const Header = () => {
   
@@ -30,7 +32,34 @@ const Header = () => {
             <Modal.Header>
               <Modal.Title>Choose Location</Modal.Title>
             </Modal.Header>
-            <Modal.Body>The body</Modal.Body>
+            <Modal.Body>
+              <div className="col-sm-auto text-center">
+                <a
+                  type="button"
+                  className="btn btn-link navbar-brand text-uppercase sm-text-left font-weight-bold "
+                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                >
+                  Order Harwich
+                </a>
+                <img
+                className="img-fluid rounded about-heading-img w-75"
+                src={plgs}
+                alt="Outside the pleasant lake general store"
+                />
+                <a
+                  type="button"
+                  className={`btn btn-link navbar-brand text-uppercase font-weight-bold `}
+                  href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+                >
+                  Order Chatham
+                </a>
+                <img
+                className="img-fluid rounded about-heading-img w-75"
+                src={orpheum}
+                alt="The Historic Chatham Orpheum"
+                />
+              </div>
+            </Modal.Body>
           </Modal>
         </div>
         <div className="col-2 col-sm-auto ">
