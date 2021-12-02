@@ -27,7 +27,7 @@ const Header = () => {
       >
         <div className="col-10 col-sm-auto text-left flex-sm-row">
         
-          <button className="btn btn-link navbar-brand text-uppercase sm-text-left font-weight-bold " onClick={showModal}>Order Online</button>
+          <button className="btn btn-link navbar-brand text-uppercase font-weight-bold " onClick={showModal}>Order Online</button>
           <Modal show={isOpen} size="lg" onHide={hideModal}>
             <Modal.Header className="mx-auto">
               <Modal.Title>Choose Location</Modal.Title>
@@ -36,7 +36,7 @@ const Header = () => {
               <div className="col-sm-auto text-center">
                 <a
                   type="button"
-                  className="btn btn-link navbar-brand text-uppercase sm-text-left font-weight-bold "
+                  className="btn btn-link navbar-brand text-uppercase font-weight-bold "
                   href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
                 >
                   Order Harwich
