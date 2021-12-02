@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import { useState } from 'react';
 import fbicon from '../assets/images/Facebook.svg'
 import instaicon from '../assets/images/Instagram.svg'
-import plgs from '../assets/images/plgs5.jpg'
+import plgs2 from '../assets/images/plgs2.jpg'
 import orpheum from '../assets/images/orpheum.jpg'
 
 const Header = () => {
@@ -43,7 +43,7 @@ const Header = () => {
                 </a>
                 <img
                 className="img-fluid rounded about-heading-img w-75"
-                src={plgs}
+                src={plgs2}
                 alt="Outside the pleasant lake general store"
                 />
                 <a
