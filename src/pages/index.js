@@ -68,7 +68,7 @@ const IndexPage = () => (
         <img
           className="img-fluid rounded about-heading-img "
           src={orpheum}
-          alt="Old timey post card of the pleasant lake general store"
+          alt="Historic Chatham Orpheum"
         />
       </div>
     </section>

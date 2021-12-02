@@ -78,7 +78,7 @@ const Header = () => {
           className={`collapse navbar-collapse  ${menuOpen ? 'show' : ''}`}
           id="navbarResponsive"
         >
-          <ul className="navbar-nav text-center mx-auto ">
+          <ul className="navbar-nav text-center mx-auto">
             <li className={`nav-item px-lg-3 ${activeLink === 'Home' ? '' : setActiveLink('Home')}`} >
               <Link className={`nav-link text-uppercase text-expanded ${menuOpen ? 'pt-3' : ''}`} to="/">
                 Home
