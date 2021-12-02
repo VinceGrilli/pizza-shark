@@ -29,7 +29,7 @@ const Header = () => {
         
           <button className="btn btn-link navbar-brand text-uppercase sm-text-left font-weight-bold " onClick={showModal}>Order Online</button>
           <Modal show={isOpen} size="lg" onHide={hideModal}>
-            <Modal.Header>
+            <Modal.Header className="mx-auto">
               <Modal.Title>Choose Location</Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -42,7 +42,7 @@ const Header = () => {
                   Order Harwich
                 </a>
                 <img
-                className="img-fluid rounded about-heading-img w-75"
+                className="img-fluid rounded about-heading-img w-75 mb-3"
                 src={plgs2}
                 alt="Outside the pleasant lake general store"
                 />
@@ -79,20 +79,12 @@ const Header = () => {
           id="navbarResponsive"
         >
           <ul className="navbar-nav text-center mx-auto ">
-            <li
-              className={`nav-item px-lg-3 ${
-                activeLink === 'Home' ? '' : setActiveLink('Home')
-              }`}
-            >
+            <li className={`nav-item px-lg-3 ${activeLink === 'Home' ? '' : setActiveLink('Home')}`} >
               <Link className={`nav-link text-uppercase text-expanded ${menuOpen ? 'pt-3' : ''}`} to="/">
                 Home
               </Link>
             </li>
-            <li
-              className={`nav-item px-lg-2 ${
-                activeLink === 'store' ? 'active' : ''
-              }`}
-            >
+            <li className={`nav-item px-lg-2 ${activeLink === 'store' ? 'active' : ''}`} >
               <Link
                 className="nav-link text-uppercase text-expanded"
                 to="/hours"
