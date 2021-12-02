@@ -100,6 +100,15 @@ const Header = () => {
                 Hours
               </Link>
             </li>
+            <li
+              className={`nav-item px-lg-3 ${
+                activeLink === 'Home' ? '' : setActiveLink('Home')
+              }`}
+            >
+              <Link className={`nav-link text-uppercase text-expanded ${menuOpen ? 'pt-3' : ''}`} to="/locations">
+                Locations
+              </Link>
+            </li>
           </ul>
           <div className="navbar-end mx-2 text-center">
             
