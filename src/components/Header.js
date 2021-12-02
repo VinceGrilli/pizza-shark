@@ -100,27 +100,14 @@ const Header = () => {
                 Hours
               </Link>
             </li>
-            <li
-              className={`nav-item px-lg-3 ${
-                activeLink === 'Home' ? '' : setActiveLink('Home')
-              }`}
-            >
-              <Link className={`nav-link text-uppercase text-expanded ${menuOpen ? 'pt-3' : ''}`} to="/locations">
-                Locations
-              </Link>
-            </li>
           </ul>
           <div className="navbar-end mx-2 text-center">
-            
-              <a href="https://www.facebook.com/PleasantLakePizza" title="facebook" className=" rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl">
-                <img src={fbicon} alt="facebook" className="social-item"/>
-              </a>
-            
-            
-              <a href="https://www.instagram.com/pizzasharkcc/" title="instagram" className="mr-2 rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl">
-                <img src={instaicon} alt="instagram" className="social-item"/>
-              </a>
-            
+            <a href="https://www.facebook.com/PleasantLakePizza" title="facebook" className=" rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl">
+              <img src={fbicon} alt="facebook" className="social-item"/>
+            </a>          
+            <a href="https://www.instagram.com/pizzasharkcc/" title="instagram" className="mr-2 rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl">
+              <img src={instaicon} alt="instagram" className="social-item"/>
+            </a>
           </div>
         </div>
     </nav>
