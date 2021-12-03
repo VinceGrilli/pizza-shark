@@ -25,7 +25,7 @@ const Header = () => {
         className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-2"
         id="mainNav"
       >
-        <div className="col-10 col-sm-auto text-left flex-sm-row">
+        <div className="col-10 col-sm-auto flex-sm-row">
         
           <button className="btn btn-link navbar-brand text-uppercase font-weight-bold " onClick={showModal}>Order Online</button>
           <Modal show={isOpen} size="lg" onHide={hideModal}>
@@ -36,7 +36,7 @@ const Header = () => {
               <div className="col-sm-auto text-center">
                 <a
                   type="button"
-                  className="btn btn-link navbar-brand text-uppercase font-weight-bold "
+                  className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
                   href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
                 >
                   Order Harwich
@@ -48,7 +48,7 @@ const Header = () => {
                 />
                 <a
                   type="button"
-                  className={`btn btn-link navbar-brand text-uppercase font-weight-bold `}
+                  className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
                   href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
                 >
                   Order Chatham
