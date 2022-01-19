@@ -111,23 +111,23 @@ const IndexPage = () => {
                   
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Wednesday
-                    <span className="ml-auto">11:00 AM to 8:30 PM</span>
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Thursday
-                    <span className="ml-auto">11:00 AM to 8:30 PM</span>
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Friday
-                    <span className="ml-auto">11:00 AM to 8:30 PM</span>
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Saturday
-                    <span className="ml-auto">11:00 AM to 8:30 PM</span>
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Sunday
-                    <span className="ml-auto">11:00 AM to 8:30 PM</span>
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
                   </li>
                 </ul>
                 <p className="address mb-4">
