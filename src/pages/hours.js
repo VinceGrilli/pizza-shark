@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Map from '../components/Map';
 
 const IndexPage = () => {
   return (
@@ -108,7 +107,18 @@ const IndexPage = () => {
                 </h2>
                 <strong>Online Ordering Hours</strong>
                 <ul className="list-unstyled list-hours my-4 text-left mx-auto">
-                  
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Sunday
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Monday
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Tuesday
+                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
+                  </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Wednesday
                     <span className="ml-auto">11:00 AM to 8:00 PM</span>
@@ -123,10 +133,6 @@ const IndexPage = () => {
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Saturday
-                    <span className="ml-auto">11:00 AM to 8:00 PM</span>
-                  </li>
-                  <li className="list-unstyled-item list-hours-item d-flex">
-                    Sunday
                     <span className="ml-auto">11:00 AM to 8:00 PM</span>
                   </li>
                 </ul>
