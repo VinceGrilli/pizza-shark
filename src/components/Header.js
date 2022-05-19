@@ -12,6 +12,8 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeLink, setActiveLink] = useState('Home')
   const [isOpen, setIsOpen] = useState(false);
+  const [harwichConformationIsOpen, setHarwichConformationIsOpen] = useState(false);
+  const [chathamConformationIsOpen, setChathamConformationIsOpen] = useState(false);
 
   const showModal = () => {
     setIsOpen(true);
@@ -37,7 +39,8 @@ const Header = () => {
                 <a
                   type="button"
                   className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
-                  href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                  href="#"
+                  onClick={()=> setHarwichConformationIsOpen(true)}
                 >
                   Order Harwich
                 </a>
@@ -49,7 +52,8 @@ const Header = () => {
                 <a
                   type="button"
                   className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
-                  href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+                  href="#"
+                  onClick={()=> setChathamConformationIsOpen(true)}
                 >
                   Order Chatham
                 </a>
@@ -59,6 +63,32 @@ const Header = () => {
                 alt="The Historic Chatham Orpheum"
                 />
               </div>
+            </Modal.Body>
+          </Modal>
+          <Modal size='sm' show={harwichConformationIsOpen} onHide={()=> setHarwichConformationIsOpen(false)} centered>
+            <Modal.Body className='text-center'>
+              Please confirm you've selected the correct location
+              <br/>
+              <a
+                type="button"
+                className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
+                href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+              >
+                Order Harwich
+              </a>
+            </Modal.Body>
+          </Modal>
+          <Modal size='sm' show={chathamConformationIsOpen} onHide={()=> setChathamConformationIsOpen(false)} centered>
+            <Modal.Body className='text-center'>
+              Please confirm you've selected the correct location
+              <br/>
+              <a
+                type="button"
+                className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
+                href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+              >
+                Order Chatham
+              </a>
             </Modal.Body>
           </Modal>
         </div>
