@@ -1,11 +1,20 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { useState } from 'react';
+import Modal from "react-bootstrap/Modal"
 
 import store from '../assets/images/store-inside.jpg';
 import orpheum from '../assets/images/orpheum.jpg';
 
-const IndexPage = () => (
+
+const IndexPage = () => {
+
+  const [harwichConformationIsOpen, setHarwichConformationIsOpen] = useState(false);
+  const [chathamConformationIsOpen, setChathamConformationIsOpen] = useState(false);
+
+  return (
   <Layout activeLink="home">
+    
     <section className="page-section about-heading">
       <div className="container">
         <div className="about-heading-content mt-5 mb-3 ">
@@ -32,6 +41,19 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="page-section about-heading">
+    <Modal size='sm' show={harwichConformationIsOpen} onHide={()=> setHarwichConformationIsOpen(false)} centered>
+      <Modal.Body className='text-center'>
+        Please confirm you've selected the correct location
+        <br/>
+        <a
+          type="button"
+          className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
+          href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+        >
+          Order Harwich
+        </a>
+      </Modal.Body>
+    </Modal>
       <div className="container">
         <div className="about-heading-content mt-5 mb-3 ">
           <div className="row">
@@ -48,7 +70,8 @@ const IndexPage = () => (
                 <div className="intro-button text-center mt-4">
                   <a
                     className="btn btn-primary btn-xl mb-4"
-                    href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
+                    href="#"
+                    onClick={()=> setHarwichConformationIsOpen(true)}
                   >
                     Order Harwich
                   </a>
@@ -65,6 +88,19 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="page-section about-heading">
+      <Modal size='sm' show={chathamConformationIsOpen} onHide={()=> setChathamConformationIsOpen(false)} centered>
+        <Modal.Body className='text-center'>
+          Please confirm you've selected the correct location
+          <br/>
+          <a
+            type="button"
+            className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
+            href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+          >
+            Order Chatham
+          </a>
+        </Modal.Body>
+      </Modal>
       <div className="container">
         <div className="about-heading-content mt-5 mb-3 ">
           <div className="row">
@@ -81,7 +117,8 @@ const IndexPage = () => (
                 <div className="intro-button text-center mt-5 mx-auto">
                   <a
                     className="btn btn-primary btn-xl mb-4"
-                    href="https://www.toasttab.com/pizza-shark-chatham-637-main-street"
+                    href="#"
+                    onClick={()=> setChathamConformationIsOpen(true)}
                   >
                     Order Chatham
                   </a>
@@ -180,6 +217,7 @@ const IndexPage = () => (
       </div>
     </section>
   </Layout>
-);
+  )
+};
 
 export default IndexPage;
