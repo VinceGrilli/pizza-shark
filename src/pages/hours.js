@@ -105,8 +105,7 @@ const IndexPage = () => {
                   <span className="section-heading-lower mb-3">Chatham Hours</span>
                   <span className="section-heading-upper ">Pizza Shark At The Chatham Orpheum</span>
                 </h2>
-                <strong>Online Ordering Hours</strong>
-                <ul className="list-unstyled list-hours my-4 text-left mx-auto">
+                <ul className="list-unstyled list-hours mb-4 text-left mx-auto">
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Sunday
                     <span className="ml-auto">11:00 AM to 8:00 PM</span>

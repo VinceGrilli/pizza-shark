@@ -65,7 +65,7 @@ const IndexPage = () => {
                   </span>
                 </h2>
                 <p className="text-center">
-                Located on the Brewster-Harwich line, directly on the Cape Cod Rail Trail. Pizza, salads, sandwiches & ice cream year-round. Excellent location for a quick & easy lunch. Grocery essentials, snacks, beverages, beer & wine available in the General Store. Please use our hassle-free online ordering system to earn rewards points. We offer delivery 7 nights a week to all of Brewster and Harwich and you can order everything from the general store along with your pizzas. One-stop shopping! 
+                Located on the Brewster-Harwich line, directly on the Cape Cod Rail Trail. Pizza, salads, sandwiches & ice cream year-round. Excellent location for a quick & easy lunch. Grocery essentials, snacks, beverages, beer & wine available in the General Store. One-stop shopping! Please use our hassle-free online ordering system to earn rewards points.
                 </p>
                 <div className="intro-button text-center mt-4">
                   <a
