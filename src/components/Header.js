@@ -32,9 +32,9 @@ const Header = () => {
         className="navbar fixed-top navbar-expand-lg navbar-dark py-lg-2"
         id="mainNav"
       >
-        <div className="col-10 col-sm-auto flex-sm-row">
+        <div className="col-10 col-sm-auto pr-0">
         
-          <button className="btn btn-link navbar-brand text-uppercase font-weight-bold " onClick={showModal}>Order Online</button>
+          <button className="btn btn-sm btn-link navbar-brand text-uppercase font-weight-bold fs-6" onClick={showModal}>Order Food</button>
           <Modal show={isOpen} size="lg" onHide={hideModal}>
             <Modal.Header className="mx-auto">
               <Modal.Title>Choose Location</Modal.Title>
@@ -95,7 +95,7 @@ const Header = () => {
               <br/>
               <a
                 type="button"
-                className="btn btn-link navbar-brand text-uppercase font-weight-bold mx-auto"
+                className="btn btn-link navbar-brand text-uppercase font-weight-bold"
                 href="https://www.toasttab.com/pizza-shark-403-pleasant-lake-ave"
               >
                 Order Harwich
@@ -128,7 +128,9 @@ const Header = () => {
               </a>
             </Modal.Body>
           </Modal>
-        <a type="button" className="btn btn-link navbar-brand text-uppercase font-weight-bold " href="https://pizzasharkmerch.squarespace.com/">Order Merch</a>
+
+        <a type="button" className="btn btn-sm btn-link navbar-brand text-uppercase font-weight-bold m-0 " href="https://pizzasharkmerch.squarespace.com/">Order Merch</a>
+        
         </div>
         <div className="col-2 col-sm-auto ">
           <button
@@ -155,9 +157,25 @@ const Header = () => {
             <li className={`nav-item px-lg-2 ${activeLink === 'store' ? 'active' : ''}`} >
               <Link
                 className="nav-link text-uppercase text-expanded"
-                to="/hours"
+                to="/harwich"
               >
-                Hours
+                Harwich
+              </Link>
+            </li>
+            <li className={`nav-item px-lg-2 ${activeLink === 'store' ? 'active' : ''}`} >
+              <Link
+                className="nav-link text-uppercase text-expanded"
+                to="/Chatham"
+              >
+                Chatham
+              </Link>
+            </li>
+            <li className={`nav-item px-lg-2 ${activeLink === 'store' ? 'active' : ''}`} >
+              <Link
+                className="nav-link text-uppercase text-expanded"
+                to="/Dennis"
+              >
+                Dennis
               </Link>
             </li>
           </ul>

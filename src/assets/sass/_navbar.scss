@@ -3,6 +3,8 @@
   @include heading-font;
   .navbar-brand {
     color: $primary;
+    font-size: 1rem;
+
   }
   .navbar-nav {
     .nav-item {
