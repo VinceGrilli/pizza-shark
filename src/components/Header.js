@@ -34,7 +34,7 @@ const Header = () => {
       >
         <div className="col-10 col-sm-auto pr-0">
         
-          <button className="btn btn-sm btn-link navbar-brand text-uppercase font-weight-bold fs-6" onClick={showModal}>Order Food</button>
+          <button className="btn btn-sm btn-link navbar-brand text-uppercase font-weight-bold " onClick={showModal}>Order Food</button>
           <Modal show={isOpen} size="lg" onHide={hideModal}>
             <Modal.Header className="mx-auto">
               <Modal.Title>Choose Location</Modal.Title>
