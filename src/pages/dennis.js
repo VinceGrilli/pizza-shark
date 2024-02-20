@@ -2,7 +2,7 @@ import React from 'react';
 
 import store from '../assets/images/store-inside.jpg';
 import Layout from '../components/Layout';
-import dennisStore from '../assets/images/dennis-village.jpeg';
+import dennisStore from '../assets/images/dennisshark.jpg';
 
 
 const IndexPage = () => {

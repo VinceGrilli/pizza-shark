@@ -1,9 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { Link } from 'gatsby';
 
 import store from '../assets/images/store-inside.jpg';
 import orpheum from '../assets/images/orpheum.jpg';
-import dennisStore from '../assets/images/dennis-village.jpeg';
+import dennisStore from '../assets/images/dennisshark.jpg';
 
 
 const IndexPage = () => {
@@ -19,7 +20,7 @@ const IndexPage = () => {
     <section className="page-section about-heading">
       <div className="container">
         <div className="about-heading-content mt-5 ">
-          <div className="row">
+          <Link className="row" to='/harwich'>
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded ">
                 <h2 className="section-heading">
@@ -34,7 +35,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-          </div> 
+          </Link> 
         </div>
       </div>
     </section>
@@ -42,7 +43,7 @@ const IndexPage = () => {
     <section className="page-section about-heading">
       <div className="container">
         <div className="about-heading-content mt-5 ">
-          <div className="row">
+          <Link className="row" to='/chatham'>
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded ">
                 <h2 className="section-heading">
@@ -57,7 +58,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
@@ -65,7 +66,7 @@ const IndexPage = () => {
     <section className="page-section about-heading">
       <div className="container">
         <div className="about-heading-content mt-5 ">
-          <div className="row">
+          <Link className="row" to='/dennis'>
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded ">
                 <h2 className="section-heading">
@@ -80,7 +81,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
