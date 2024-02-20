@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-import { Container } from 'react-bootstrap';
 import store from '../assets/images/store-inside.jpg';
 import orpheum from '../assets/images/orpheum.jpg';
 import dennisStore from '../assets/images/dennis-village.jpeg';
@@ -11,11 +10,11 @@ const IndexPage = () => {
   return (
   <Layout activeLink="home">
     <section className='page-section'>
-      <Container>
+      <div className='container'>
         <div className="embed-responsive embed-responsive-16by9">
           <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/sWQTVIuzUcI?si=iQiKI5WUARDWJtso" title="Pizza Shark Commercial" allowFullScreen></iframe>
         </div>
-      </Container>
+      </div>
     </section>
     <section className="page-section about-heading">
       <div className="container">

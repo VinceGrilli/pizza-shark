@@ -165,7 +165,7 @@ const Header = () => {
             <li className={`nav-item px-lg-2 ${activeLink === 'store' ? 'active' : ''}`} >
               <Link
                 className="nav-link text-uppercase text-expanded"
-                to="/Chatham"
+                to="/chatham"
               >
                 Chatham
               </Link>
@@ -173,7 +173,7 @@ const Header = () => {
             <li className={`nav-item px-lg-2 ${activeLink === 'store' ? 'active' : ''}`} >
               <Link
                 className="nav-link text-uppercase text-expanded"
-                to="/Dennis"
+                to="/dennis"
               >
                 Dennis
               </Link>
