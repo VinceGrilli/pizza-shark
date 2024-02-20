@@ -8,7 +8,7 @@ import instaicon from '../assets/images/Instagram.svg'
 
 import plgs2 from '../assets/images/plgs2.jpg'
 import orpheum from '../assets/images/orpheum.jpg'
-import dennisStore from '../assets/images/dennis-village.jpeg'
+import dennisStore from '../assets/images/dennisshark.jpg'
 
 
 const Header = () => {
